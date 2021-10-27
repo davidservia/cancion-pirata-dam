@@ -1,0 +1,24 @@
+/**** estilo de pirata con imagen grande de fondo *****/
+
+@font-face {
+    font-family: pirata; /* el nombre que yo quiera */
+    src: url("../Fonts/GreatVibes-Regular.ttf"); /*donde esta el archivo */
+}
+
+body {background-color: black;}
+
+#container {background-image: url(../images/background2.jpg); /*la imagen esta en el container */
+            background-size: cover; /*cover estira o encage la imagen para que encaje perfectamente 1 sola vez, sin repetir */
+        width: 80%;
+        height:100vh; /*puede provocar que el texto del poema se salga del container */
+        margin:auto;
+        font-family: pirata;
+        font-size: 1.6em;
+}
+    #poema  {background-color: white;
+        width:300px; /* en este caso Muy PARTICULAR me conviene fijar el ancho de pixeles porque protege el ancho de lineas del poema y no rompe los versos. Ademas 300px caben en el ancho de cualquier movil */
+        padding: 20px;
+        margin: 20px;
+
+}
+    

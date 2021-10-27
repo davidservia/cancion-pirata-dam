@@ -1,0 +1,19 @@
+/*** HOJA DE ESTILO DE LA WEB DE LA CANCIÓN DEL PIRATA ****/
+
+    @font-face {
+        font-family: pirata; /* el nombre que yo quiera */
+        src: url("../Fonts/GreatVibes-Regular.ttf"); /*donde esta el archivo */
+    }
+    body {background-image: url("../images/background.jpg");
+        background-size: 50%; /* puedo redimensionar el tamaño del pattern */
+        /*background-repeat: repeat-x; /* puedo controlar la repetición */
+        padding:0;
+        margin:0;}
+
+    #container {background-color: white;
+                width:80% ;
+                margin:auto;
+                padding: 10px;
+                font-family: pirata /*coloco el tipo de fuente nombrado por mí */;
+                font-size: 2em;
+    }
